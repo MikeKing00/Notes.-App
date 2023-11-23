@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background: #ffeaea;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+
+    width: 700px;
+    max-width: 700px;
+    margin-bottom: 100px;
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+
+}
+
+.container h1 {
+    text-align: center;
+    font-weight: 600px;
+
+}
+.text-area {
+
+    position: relative;
+    width: 100%;
+    height: 200px;
+    
+}
+
+textarea {
+    width: 100%;
+    max-width: 700px;
+    height: 100%;
+    resize: none;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    padding-top:20px;
+    margin: 20px 0;
+    font-size: 17px;
+    box-shadow: 0 4px 8px 0 #b3b3b3;
+}
+
+input[type='corlor'] {
+    border: none;
+    outline: none;
+    background: none;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#add {
+    position: absolute;
+    right: 0px;
+    bottom: -66px;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    background: #ffffff;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    transition: .5s;
+    box-shadow: 0 5px 8px 0 #746e6e ;
+}
+
+#add:hover {
+    background: #000;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+#color {
+    position: absolute;
+    bottom: -56px;
+    left: 95px;
+
+}
+label {
+    position: absolute;
+    bottom: -50px;
+    left: 7px;
+}
+
+#size {
+    position: absolute;
+    bottom: -50px;
+    left: 218px;
+    width: 50px;
+}
+
+#Sizelabel {
+    position: absolute;
+    bottom: -50px;
+    left: 170px;
+}
+
+.notes {
+
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+}
+
+.box  {
+    background: #FFF;
+    box-shadow: 0 4px 8px 0 #746e6e;
+    padding: 15px 10px;
+    margin: 15px 0;
+    height: auto;
+    position: relative;
+    animation: scale(0.4s);
+}
+ @keyframes scale {
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+
+    }
+ }
+ .box p {
+    font-size: 17px;
+    font-weight: 700;
+
+ }
+
+ .notes button {
+
+    border: none;
+    border-radius: 50px;
+    padding: 5px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    margin: 7px;
+    cursor: pointer;
+    outline: none;
+    background: #f55555;
+    color: #fff;
+ }
+
+ .notes button:hover {
+    background: #faacac;
+    color: red;
+ }
+
